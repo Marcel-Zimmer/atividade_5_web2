@@ -1,8 +1,8 @@
 <form>
     numero 1: <input #numero1 type="text" /><br/>
     numero 2: <input #numero2 type="text" /><br/>
-    <input type="button" value="Somar"
-        (click) = "somarBotao(numero1.value, numero2.value)"/>
+    <input type="button" value="Multiplicar"
+        (click) = "multiplicacao(numero1.value, numero2.value)"/>
     <br><br>
     resultado :<input type="text" [value]="resultado" readonly/>
 </form>
